@@ -15,3 +15,15 @@ body {
 footer {
     margin: 50px 0;
 }
+
+.space{
+	margin-top: 65px;
+}
+
+.event{
+	color: green ;
+}
+
+.font{
+	font-size: 18px;
+}
