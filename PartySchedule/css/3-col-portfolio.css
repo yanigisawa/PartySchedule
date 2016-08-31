@@ -15,3 +15,23 @@ body {
 footer {
     margin: 50px 0;
 }
+
+.space{
+	margin-top: 65px;
+}
+
+.event{
+	color: #6ba145;
+}
+
+.bday{
+	color:  #b30047;
+}
+
+.holiday{
+	color:  #cc9900;
+}
+
+.font{
+	font-size: 18px;
+}
