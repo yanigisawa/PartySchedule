@@ -21,7 +21,15 @@ footer {
 }
 
 .event{
-	color: green ;
+	color: #006E51;
+}
+
+.bday{
+	color: #92B6D5;
+}
+
+.holiday{
+	color: #AD5D5D;
 }
 
 .font{
