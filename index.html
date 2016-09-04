@@ -71,46 +71,43 @@
     <!-- Page Content -->
 
     <div class="container font">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Welcome to our Party Schedule page!
-                </h1>
-                <p>This page shows our dance "assignments" for the next (5) months, as well as some other important dates and
-                    information. You can navigate to a specific month by clicking the links in the nav bar...or you can scroll,
-                    if you want to be old school.</p>
-                <br>
-                <p>You may be thinking to yourself, "What's with the colors?" I'm glad you asked...</p>
-                <ul>
-                    <span>&sdot;</span> Typical party dates are shown in <span style="color:#317eac">Blue</span>.<br>
-                    <span>&sdot;</span> Five Star events that may affect the schedule are shown in <span style="color:#6ba145">Green</span>.<br>
-                    <span>&sdot;</span> Birthdays are shown in <span style="color: #b30047">Red</span>.<br>
-                    <span>&sdot;</span> Holidays are shown in <span style="color:#cc9900">Gold</span>.<br>
-                </ul>
-                <br>
-                <p>Please note that the schedule is subject to change; the flexibility of all participants is appreciated.</p>
-            </div>
-        </div>
+        <div class="jumbotron">
+            <h1 class="page-header">Welcome to our Party Schedule page!
+            </h1>
+            <p>This page shows our dance "assignments" for the next (5) months, as well as some other important dates and information.
+                You can navigate to a specific month by clicking the links in the nav bar...or you can scroll, if you want
+                to be old school.</p>
+            <br>
+            <p>You may be thinking to yourself, "What's with the colors?" I'm glad you asked...</p>
+            <ul>
+                <span>&sdot;</span> Typical party dates are shown in <span style="color:#317eac">Blue</span>.<br>
+                <span>&sdot;</span> Five Star events that may affect the schedule are shown in <span style="color:#6ba145">Green</span>.<br>
+                <span>&sdot;</span> Birthdays are shown in <span style="color: #b30047">Red</span>.<br>
+                <span>&sdot;</span> Holidays are shown in <span style="color:#cc9900">Gold</span>.<br>
+            </ul>
+            <br>
+            <p>Please note that the schedule is subject to change; the flexibility of all participants is appreciated.</p>
 
-        <div id="mainTemplate"></div>
+            <div id="mainTemplate"></div>
 
-        <hr/>
+            <hr/>
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Party Schedule 2016</p>
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; Party Schedule 2016</p>
+                    </div>
                 </div>
-            </div>
-            <!-- /.row -->
-        </footer>
+                <!-- /.row -->
+            </footer>
 
-    </div>
-    <!-- /.container -->
+        </div>
+        <!-- /.container -->
 
-    <!-- Templates -->
+        <!-- Templates -->
 
-    <script id="template" type="x-tmpl-mustache">
+        <script id="template" type="x-tmpl-mustache">
         {{#parties}}
             <a name="{{month}}"></a>  
             <div class="row">
@@ -139,13 +136,13 @@
     </script>
 
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <script src="js/mustache.js"></script>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <script src="js/mustache.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/parties.js"></script>
-    <script src="js/schedule.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/parties.js"></script>
+        <script src="js/schedule.js"></script>
 </body>
 
 </html>
