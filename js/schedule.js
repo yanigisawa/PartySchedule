@@ -89,7 +89,7 @@
         return newParties;
     }
 
-    partySchedule.thursdayParties = removePastDays(partySchedule.thursdayParties);
+    // partySchedule.thursdayParties = removePastDays(partySchedule.thursdayParties);
     populateWeekDays(partySchedule.thursdayParties);
     var template = $('#template').html();
     Mustache.parse(template);   // optional, speeds up future uses
